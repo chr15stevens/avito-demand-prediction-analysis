@@ -7,7 +7,7 @@ train = pd.read_csv('train_tmp.csv')
 print(train.head())
 print(train.axes)
 
-groupableColumnLabels = ['region', 'city', 'parent_category_name', 'category_name', 'user_type', 'image_top_1']
+groupableColumnLabels = ['region', 'city', 'parent_category_name', 'category_name', 'user_type']
 groups = []
 groupDataframes = []
 
